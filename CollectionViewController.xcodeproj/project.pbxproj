@@ -12,6 +12,11 @@
 		FB0B56F21E664DD200051722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0B56F01E664DD200051722 /* Main.storyboard */; };
 		FB0B56F41E664DD200051722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0B56F31E664DD200051722 /* Assets.xcassets */; };
 		FB0B56F71E664DD200051722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0B56F51E664DD200051722 /* LaunchScreen.storyboard */; };
+		FB0B57011E664ED900051722 /* ProductsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0B57001E664ED900051722 /* ProductsCollectionViewController.swift */; };
+		FB0B57031E664F4F00051722 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0B57021E664F4F00051722 /* ItemCollectionViewCell.swift */; };
+		FB0B57051E664F7E00051722 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0B57041E664F7E00051722 /* Item.swift */; };
+		FB0B57071E66638300051722 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0B57061E66638300051722 /* NormalViewController.swift */; };
+		FB0B57091E6669E900051722 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0B57081E6669E900051722 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		FB0B56F31E664DD200051722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB0B56F61E664DD200051722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB0B56F81E664DD200051722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0B57001E664ED900051722 /* ProductsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewController.swift; sourceTree = "<group>"; };
+		FB0B57021E664F4F00051722 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB0B57041E664F7E00051722 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FB0B57061E66638300051722 /* NormalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		FB0B57081E6669E900051722 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				FB0B56F31E664DD200051722 /* Assets.xcassets */,
 				FB0B56F51E664DD200051722 /* LaunchScreen.storyboard */,
 				FB0B56F81E664DD200051722 /* Info.plist */,
+				FB0B57001E664ED900051722 /* ProductsCollectionViewController.swift */,
+				FB0B57021E664F4F00051722 /* ItemCollectionViewCell.swift */,
+				FB0B57041E664F7E00051722 /* Item.swift */,
+				FB0B57061E66638300051722 /* NormalViewController.swift */,
+				FB0B57081E6669E900051722 /* DetailViewController.swift */,
 			);
 			path = CollectionViewController;
 			sourceTree = "<group>";
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB0B57051E664F7E00051722 /* Item.swift in Sources */,
+				FB0B57071E66638300051722 /* NormalViewController.swift in Sources */,
+				FB0B57031E664F4F00051722 /* ItemCollectionViewCell.swift in Sources */,
+				FB0B57011E664ED900051722 /* ProductsCollectionViewController.swift in Sources */,
 				FB0B56EF1E664DD200051722 /* ViewController.swift in Sources */,
 				FB0B56ED1E664DD200051722 /* AppDelegate.swift in Sources */,
+				FB0B57091E6669E900051722 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
